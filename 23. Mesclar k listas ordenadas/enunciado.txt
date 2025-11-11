@@ -1,0 +1,36 @@
+É fornecido um conjunto de klistas encadeadas lists, cada lista encadeada ordenada em ordem crescente.
+
+Combine todas as listas encadeadas em uma única lista encadeada ordenada e retorne-a.
+
+
+
+Exemplo 1:
+
+Entrada: listas = [[1,4,5],[1,3,4],[2,6]]
+ Saída: [1,1,2,3,4,4,5,6]
+ Explicação: As listas encadeadas são:
+[
+  1->4->5,
+  1->3->4,
+  2->6
+]
+mesclando-as em uma única lista encadeada ordenada:
+1->1->2->3->4->4->5->6
+Exemplo 2:
+
+Entrada: listas = []
+ Saída: []
+Exemplo 3:
+
+Entrada: listas = [[]]
+ Saída: []
+
+
+Restrições:
+
+k == lists.length
+0 <= k <= 104
+0 <= lists[i].length <= 500
+-104 <= lists[i][j] <= 104
+lists[i]está ordenado em ordem crescente .
+A soma de lists[i].lengthnão excederá .104
